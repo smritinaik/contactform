@@ -1,6 +1,6 @@
 import connectDB from "@/app/lib/mongodb";
 import Contact from "@/app/models/contact";
-import mongoose from "mongoose"; // ✅ Required for ValidationError check
+import mongoose from "mongoose";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
